@@ -56,3 +56,5 @@ console.log(dataDiri);
 
 
 
+const hasil = "9" + 1;
+console.log(hasil);
