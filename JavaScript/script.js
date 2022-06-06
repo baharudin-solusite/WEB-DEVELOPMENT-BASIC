@@ -58,3 +58,41 @@ console.log(dataDiri);
 
 const hasil = "9" + 1;
 console.log(hasil);
+
+const siswa = {
+    nama : 'baharudin',
+    kelas : {
+        tingkat: 11,
+        jurusan: 'IPA'
+    }
+};
+console.log(siswa.kelas.jurusan);
+
+// --------
+let sayHello = 'Hello';
+const sayGoobye = 'Goodbye';
+
+const speakIndonesia = () => {
+    sayHello = 'Hay!';
+    console.log(sayHello);
+    console.log(sayGoobye);
+};
+speakIndonesia();
+// ----------
+const address = () => {
+    const country = 'Indonesia';
+    const province = 'DKI Jakarta';
+    const city = 'Jakarta Selatan';
+
+};
+console.log('Next stop: ${city}');
+
+// -----------
+function sum(a = 4,b) {
+    return a + b
+}
+
+num1 = 5
+num2 = 10
+sum(num1,num2)
+console.log(sum(5,10))
