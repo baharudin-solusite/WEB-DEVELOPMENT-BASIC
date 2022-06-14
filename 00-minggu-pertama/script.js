@@ -336,7 +336,7 @@ document.title = "Public";
 // mengambil nilai pada html
 
 
-console.log(document.querySelector("#web"));
+// console.log(document.querySelector("#web"));
 
 // document.getElementById("web").innerHTML = "New text!";
 
