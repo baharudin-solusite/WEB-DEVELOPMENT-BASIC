@@ -193,12 +193,15 @@ isNowSale? console.log('Lets shopping now') :console.log('Shopping leter');
 //contoh 
 
 
- let scopeGlobal = 3;
+ 
+let scopeGlobal = 3;
 
 const scopeLocal = 80;
 if (scopeLocal >= 80){
     console.log("naik kelas" + scopeGlobal);
 }
+
+
 //Function
 //
 //function di javascript adalah sebuah blok kode yang digunakan untuk membungkus suatu proses dengan tujuan agar penulisan kode atau proses yang sama tidak ditulis secara berulang kali.
@@ -264,8 +267,8 @@ console.log(defaultParameter());//Output; "HelloPublic"
 //kita tidak bisa mengunakan fitur constractor secara langsung
 //img 2
 // B)objeck Prototype
-console.log(Object);//tidak terpanggil
-console.log(Object.prototype);//terpangil
+console.log(Object);   //tidak terpanggil
+console.log(Object.prototype);   //terpangil
 console.log(String.prototype);
 
 //Menthod/Function Prototyping
